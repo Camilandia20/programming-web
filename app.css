@@ -4,12 +4,11 @@
       background-color: #f0f0f0;
     }
 
-    /* Contenedor del encabezado */
     .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #cce5ff; /* azul claro */
+      background-color: #cce5ff; 
       padding: 15px 30px;
       border-radius: 8px;
       margin: 20px;
