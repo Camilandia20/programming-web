@@ -6,29 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/informaciontarea.php">
-        <label for="">Titulo de la tarea</label>
+    <form action="/informaciontarea.php" method="post">
+        <label for="" name="titulotarea" class="titulos">Titulo de la tarea</label>
         <input type="text"> <br><br>
 
-        <label for="">Categoria de la tarea</label>
-        <select name="" id="">
-            <option value="">Seleccionar opcion</option>
-            <option value="">Diseño</option>
-            <option value="">Estructuracion</option>
-            <option value="">Codificacion</option>
-            <option value="">Documentacion</option>
+        <label for="" name="categorias" class="titulos">Categoria de la tarea</label>
+        <select name="seleccion" id="seleccoines">
+            <option value="selecconiar">Seleccionar opcion</option>
+            <option value="diseño">Diseño</option>
+            <option value="estructuracion">Estructuracion</option>
+            <option value="codificacion">Codificacion</option>
+            <option value="documentacion">Documentacion</option>
         </select> <br><br>
 
-        <label for="">Descripcion de la tarea</label>
-        <textarea name="" id=""></textarea><br><br>
+        <label for="" class="titulos">Descripcion de la tarea</label>
+        <textarea name="desc" id="descripcion"></textarea><br><br>
 
-        <label for="">Encargado de la tarea</label>
-        <input type="text"> <br><br>
 
-        <label for="">Plazo de entrega</label>
-        <input type="date"> <br><br>
+        <label for="" class="titulos">Plazo de entrega</label>
+        <input name= "fecha"id="fechaentrega" type="date"> <br><br>
         
-        <button type="submit">Agregar tarea</button>
+        <button type="submit" name="agregartarea" id="agregartareas">Agregar tarea</button>
     </form>
 </body>
 </html>
